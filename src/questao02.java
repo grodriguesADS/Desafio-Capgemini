@@ -24,9 +24,16 @@ public class questao02 {
 		//Verifica se a senha já tem 6 caracteres
 		if (senha.length() < 6) {
 			//Calcula e printa quantos caracteres faltam
-			System.out.println("Resultado: " + (6 - senha.length()));
-		}	
+			System.out.println("Resultado: Faltam " + (6 - senha.length() + " Caracteres" ));
+		}
+		
+			if (senha.matches("(?=.*[!@#$%^&*()-+])(?=.*[a-zA-Z])(?=.*[0-9]).{6,}")){
+				System.out.println("Senha válida");
+			} else {
+				System.out.println("Senha inválida");
+			}
+		}
 		
 	}
 	
-}
+

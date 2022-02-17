@@ -15,7 +15,7 @@ public class main {
 		Scanner leitor = new Scanner(System.in);
 		while (i == 0) {
 		System.out.println("-------- Desafio de Programação ---------");
-		System.out.println("Questão 01 - [1] \nQuestão 02 - [2]\nQuestão 03 - [3]\nSair - [4]");
+		System.out.println("Questão 01 - Escada - [1] \nQuestão 02 - Senha - [2]\nQuestão 03 - Anagrama - [3]\nSair - [4]");
 		System.out.print("Escolha a opção digitando o número correspondente: ");
 		//Obter a escolha do usuario
 		int opcao = Integer.parseInt(leitor.nextLine());
