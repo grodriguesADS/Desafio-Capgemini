@@ -25,4 +25,5 @@
 <li>Adicione o projeto no seu IDE</li>
 <li>Procure a pasta src e abra a classe main</li>
 <li>Execute o programa</li>
-#Autor: Guilherme Rodrigues
+
+<p>Autor: Guilherme Rodrigues</p>
